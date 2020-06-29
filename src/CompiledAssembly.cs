@@ -35,7 +35,7 @@ namespace Oxide.Plugins
         private bool isLoaded;
 
         private static IEnumerable<string> BlacklistedNamespaces => new[] {
-            "Harmony", "Mono.CSharp", "Mono.Cecil", "Oxide.Core.ServerConsole", "ServerFileSystem", "System.IO", "System.Net", "System.Xml", "System.Reflection.Assembly",
+            "Harmony", "Mono.CSharp", "Mono.Cecil", "Oxide.Core.ServerConsole", "ServerFileSystem", "System.Net", "System.Xml", "System.Reflection.Assembly",
             "System.Reflection.Emit", "System.Threading", "System.Runtime.InteropServices", "System.Diagnostics", "System.Security", "System.Timers"
         };
 
